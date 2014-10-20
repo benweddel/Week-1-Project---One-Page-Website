@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"src",
+				"src	Attr"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/benjaminweddel/Desktop/HackerYou/Projects/Week 1 Project - One Page Website/main.css",
+		"/Users/benjaminweddel/Desktop/HackerYou/Projects/Week 1 Project - One Page Website/index.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/typography-exercise/typography-exercise.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/typography.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/bg-images/bg-images.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/css-selector-exercises.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/css-multi-class-selector.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/css-fun.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/week1files/css-class-selector.html",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML & CSS/Exercises/markup-exercise/markup-exercise.html",
+		"/Users/benjaminweddel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/benjaminweddel/Desktop/HackerYou/HTML/hello-world.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/venue.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/speakers.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/schedule.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/register.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/index.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Adopt a Kitty - Ben Weddel/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Adopt a Kitty - Ben Weddel/index.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Adopt a Kitty - Ben Weddel/adopt-form.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/Styles Conference/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Ben/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Ben/adopt-form.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Ben/index.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/index.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/paris.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/amsterdam.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/dubrovnik.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/berlin.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/Euro Trip 2014/dubrovnik2.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/organizing-data-with-tables/assets/stylesheets/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/speakers.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/main.css",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/register.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/venue.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/schedule.html",
+		"/Users/benjaminweddel/Desktop/Front-End Development/HTML & CSS Basics/index.html",
+		"/Users/benjaminweddel/Downloads/opening-the-box-model/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rulebox.third",
+			"wrapper",
+			"margin",
+			"wrapper",
+			"border",
+			"a ",
+			"a",
+			"fff",
+			"footer",
+			"a ",
+			"h1",
+			"nav a",
+			"body",
+			"a ",
+			"a:hover",
+			"593",
+			"a:hover",
+			"border-bottom",
+			"a:hover",
+			"a ",
+			"a",
+			"kitten-de",
+			"000",
+			"90f",
+			"90",
+			"kitten-ti",
+			"color",
+			"p ",
+			"container",
+			"form",
+			"border",
+			"footer",
+			"row",
+			"footer",
+			"border",
+			"header",
+			"friendly",
+			"row",
+			".row",
+			"grid",
+			"group",
+			"header",
+			".container",
+			"border-rad",
+			"adjust",
+			"img",
+			"\">\n",
+			"img",
+			"text",
+			"border",
+			"container",
+			"float",
+			"footer",
+			"	        \n",
+			"li ",
+			"li",
+			"block",
+			"container",
+			"border",
+			"grid",
+			"center",
+			"row",
+			"container",
+			"border",
+			"img",
+			"col-1-2",
+			"img",
+			"#id",
+			"img",
+			".row",
+			"1100",
+			"col",
+			"row",
+			"h3",
+			"h2",
+			"container",
+			"h1",
+			"width",
+			"header",
+			"grid",
+			"group",
+			"logo",
+			"hover",
+			"logo",
+			"block",
+			"tagline",
+			"block",
+			"uppercase",
+			"upper",
+			"navigation",
+			"container",
+			"primary-header",
+			".container",
+			".group",
+			"clear",
+			"float",
+			".group",
+			"nav",
+			"primary",
+			"fff",
+			"nav",
+			".nav",
+			"background",
+			"container",
+			"primary-header",
+			".primary",
+			".nav",
+			"td",
+			"collapse",
+			"container",
+			"btn",
+			"register",
+			"field",
+			"texta",
+			"lato",
+			"col-",
+			"font-",
+			"font-fami",
+			"row",
+			"teaser",
+			"grid",
+			"nav",
+			"float",
+			"group",
+			"clear",
+			"rows",
+			"btn-al",
+			"hero"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "One Page Website.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

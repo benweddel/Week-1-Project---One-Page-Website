@@ -1,0 +1,333 @@
+/* --- NORMALIZE --- */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/*--- Page Layout ---*/
+
+ .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+ *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #888;
+}
+
+.wrapper {
+  width: 92%;
+  margin: 0 auto;
+  /*--- Double Border ---*/
+  border-bottom: 2px solid #e5e5e5;
+  position: relative;
+  padding-bottom: 100px;
+  margin-bottom: 8%;
+}
+
+.wrap-nb /*no border*/ {
+  width: 92%;
+  margin: 0 auto;
+}
+/*--- Double Border ---*/
+
+.wrapper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 3px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+.full-wrap {
+  background: #f0f0f0;
+}
+
+/*--- Header ---*/
+
+nav {
+  margin: 50px auto;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  margin-left: -55px;
+}
+
+nav a:hover {
+  color: #ED786A;
+}
+
+a:hover {
+  color: #ED786A;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  margin: 8% 0 10px 0;
+  line-height: 1.5;
+  color: #ED786A;
+  text-shadow: 4px 4px rgba(0,0,0,0.1);
+}
+
+header p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 15px 0 40px 0;
+}
+
+/*--- About Me ---*/
+  /*--- Description ---*/
+
+.description {
+  width: 66.66%;
+  float: left;
+}
+
+.milestones {
+  width: 33.33%;
+  float: right;
+  padding-left: 3%;
+}
+
+.description h2 {
+  margin: 0 0 8% 0;
+}
+
+.aboutMe img {
+  width: 100%;
+  border: 5px solid #EBEBEB;
+}
+
+.description h3 {
+  margin: 6% 0 4% 0;
+}
+
+  /*--- Milestones ---*/
+
+.milestones h3.date {
+  background: #878787;
+  color: #fff;
+  display: inline-block;
+  padding: 3% 4%;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.milestones h3.milestone {
+  margin: 8% 0 10% 0;
+}
+
+.post {
+  border-bottom: 2px solid #E5E5E5;
+  padding: 9% 0 5% 0;
+}
+
+.post:first-child {
+  padding-top: 0;
+}
+
+ /*--- Mantra ---*/
+
+.mantra {
+  background-image: url(images/nature.jpg);
+  background-size: cover;
+  padding: 155px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: -3% 0 -2% 0;
+ 
+}
+
+.mantra h2 {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 2px;
+}
+
+.l-br,
+.r-br {
+  display: inline-block;
+  height: 70px;
+  width: 20px;
+  border: 3px solid #fff;
+  vertical-align: middle;
+}
+
+.l-br {
+  border-right: 0;
+  margin-right: 10%;
+}
+
+.r-br {
+  border-left: 0;
+  margin-left: 10%;
+}
+
+/*--- Goals ---*/
+
+.goals h2 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.goal {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1.5%;
+}
+
+.goal img {
+  width: 100%;
+  border: 5px solid #EBEBEB;
+}
+
+.goal h3 {
+  text-align: center;
+  margin: 13% 0 9% 0;
+  text-transform: uppercase;
+}
+
+.goal p {
+  text-align: justify;
+}
+
+#goals {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+#goals:before {
+  border-bottom: 0;
+}
+
+/*--- Contact Me ---*/
+
+.wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.contact {
+  padding: 6% 0 4% 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.contactMe,
+.contactInfo {
+  width: 49%;
+}
+
+.contactMe {
+  float: left;
+}
+
+.contactInfo {
+  float: right;
+}
+
+.contactMe input {
+  width: 47.5%;
+  height: 42px;
+}
+
+.name {
+  float: left;
+}
+
+.email {
+  float: right;
+}
+
+.name,
+.email {
+  padding-left: 10px;
+}
+
+.contactMe textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+  margin-top: 29px;
+  padding: 10px 0 0 10px;
+  border: 1px solid #B7B7B7;
+}
+
+.btn {
+  margin: 5% 0;
+  background: #ED786A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #FD887A;
+}
+
+.col-1-2 {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.contactInfo li {
+  margin-bottom: 15%;
+}
+
+.full-wrap,
+footer {
+  border-top: 2px solid #e5e5e5;
+}
+
+.contactInfo li {
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/*--- Footer ---*/
+
+footer {
+  padding: 5% 0 10% 0;
+  background: #f0f0f0;
+}
+
+footer p {
+  text-align: center;
+}
